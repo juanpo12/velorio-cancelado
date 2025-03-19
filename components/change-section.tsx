@@ -33,7 +33,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.`}
 
 function HighlightCard({ title, content }: { title: string; content: string }) {
   return (
-    <div className="bg-gray-600 text-white p-4">
+    <div className="bg-[#6b6a6f] text-white p-4 rounded-lg">
       <h3 className="text-xl font-bold mb-4">{title}</h3>
       {content.split("\n\n").map((paragraph, index) => (
         <p key={index} className={`text-sm leading-relaxed ${index > 0 ? "mt-4" : ""}`}>
