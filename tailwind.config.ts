@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss"
+import tailwindcssAnimate from "tailwindcss-animate";
 
 const config = {
   darkMode: ["class"],
@@ -11,6 +12,9 @@ const config = {
   ],
   prefix: "",
   theme: {
+    backgroundImage: {
+      'bg-velorio': "url('/bgvelorio.jpg')",
+    },
     container: {
       center: true,
       padding: "2rem",
@@ -75,7 +79,7 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [tailwindcssAnimate],
 } satisfies Config
 
 export default config

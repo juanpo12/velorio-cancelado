@@ -6,7 +6,7 @@ import { EventsSection } from "@/components/events-section"
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col bg-paper">
+    <div className="min-h-screen flex flex-col bg-bg-velorio bg-cover">
       {/* Header */}
       <Header />
 
