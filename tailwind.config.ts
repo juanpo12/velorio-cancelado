@@ -13,7 +13,7 @@ const config = {
   prefix: "",
   theme: {
     backgroundImage: {
-      'bg-velorio': "url('/bgvelorio.jpg')",
+      'bg-velorio': "url('/bgvelorio2.jpg')",
     },
     container: {
       center: true,
