@@ -17,13 +17,14 @@ export function HeroSection() {
 
         <ArticleCard
           title="TRAJO SALVACIÓN PARA TU VIDA"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat."
+          content="Hace miles de años, una persona tomó una decisión que cambiaría para siempre su destino y el nuestro. Él era Dios, pero vino a la tierra como hombre. La Biblia menciona que: «estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz» (Filipenses 2:8)."
           hasBorder
         />
 
-        <ArticleCard content="Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat." />
+        <ArticleCard content="Si esta persona hubiera venido solo como Dios, no habría podido morir en la cruz por nuestros pecados, porque Dios no puede morir, pero el hombre es mortal. Por eso, vino como hombre y sufrió como hombre. La sangre, el sudor y las lágrimas fueron reales. El dolor fue real. La muerte fue real." />
 
-        <ArticleCard content="Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero." />
+        <ArticleCard content="Él decidió no abandonarnos y ser traspasado en la cruz, para poder estar con nosotros y servirnos para siempre. Sin embargo, no celebramos su muerte, sino que anunciamos que su velorio fue cancelado. 
+        Hubo una resurrección que nos recuerda que no tenía por qué quedarse y ser traspasado por nuestros pecados, pero decidió hacerlo, ¡porque nos ama!" />
       </div>
     </section>
   )

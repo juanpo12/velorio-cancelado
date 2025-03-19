@@ -22,9 +22,8 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 
         <HighlightCard
           title="¿QUIÉN ES ESA PERSONA?"
-          content={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie.`}
+          content={`Si necesitas sentirte amado, si necesitas un amigo, si necesitas que tus pecados sean perdonados y si necesitas un futuro... Jesucristo es tu respuesta. Él está esperando darte una nueva vida y hacer de ti una nueva creación. 
+          No te preocupes, Él no te cargará con culpa y condenación. Te recordará la cruz y te dirá: «Tus pecados ya están perdonados. Ya pagué el precio por tus pecados en el calvario. Recibe y descansa en mi perdón y amor por ti».`}
         />
       </div>
     </section>

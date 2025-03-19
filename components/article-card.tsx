@@ -11,7 +11,7 @@ export function ArticleCard({ title, content, hasBorder, hasParagraphs }: Articl
   return (
     <div>
       {title && (
-        <h3 className={`text-xl font-bold ${hasBorder ? "border-b-2 border-black pb-2 mb-4" : "mb-2"}`}>
+        <h3 className={`text-2xl font-bold ${hasBorder ? "border-b-2 border-black pb-2 mb-4" : "mb-2"}`}>
           {title.split("\n").map((line, i) => (
             <React.Fragment key={i}>
               {line}
@@ -23,12 +23,12 @@ export function ArticleCard({ title, content, hasBorder, hasParagraphs }: Articl
 
       {hasParagraphs ? (
         content.split("\n\n").map((paragraph, index) => (
-          <p key={index} className={`text-sm leading-relaxed ${index > 0 ? "mt-4" : ""}`}>
+          <p key={index} className={`text-sm md:text-base leading-relaxed ${index > 0 ? "mt-4" : ""}`}>
             {paragraph}
           </p>
         ))
       ) : (
-        <p className="text-sm leading-relaxed">{content}</p>
+        <p className="text-sm md:text-base leading-relaxed">{content}</p>
       )}
     </div>
   )
