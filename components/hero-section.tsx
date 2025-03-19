@@ -4,7 +4,7 @@ import { ArticleCard } from "./article-card"
 export function HeroSection() {
   return (
     <section className="mb-12">
-      <h2 className="text-3xl md:text-8xl lg:text-8xl font-bold mb-6 text-center md:text-center">
+      <h2 className="text-3xl md:text-8xl lg:text-7xl font-bold mb-6 text-center md:text-center">
         BUENAS NOTICIAS:
         <br />
         ¡VELORIO CANCELADO!
