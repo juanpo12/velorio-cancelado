@@ -14,6 +14,7 @@ const config = {
   theme: {
     backgroundImage: {
       'bg-velorio': "url('/bgvelorio2.jpg')",
+      'bg-dds1': "url('/dds.png')",
     },
     container: {
       center: true,
