@@ -33,7 +33,7 @@ export function HeroSection() {
 function ImageBanner() {
   return (
     <div className="w-full aspect-[2/1] flex items-center justify-center">
-          <Image src="/tumba.jpg" width={1300} height={1000} alt="Logo Cristo la Solución"></Image>
+          <Image src="/tumba2.jpg" width={1300} height={1000} alt="Logo Cristo la Solución"></Image>
     </div>
   )
 }
