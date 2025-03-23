@@ -2,12 +2,12 @@ import * as React from "react"
 
 interface ArticleCardProps {
   title?: string
-  content: string
+  content: React.ReactNode
   hasBorder?: boolean
   hasParagraphs?: boolean
 }
 
-export function ArticleCard({ title, content, hasBorder, hasParagraphs }: ArticleCardProps) {
+export function ArticleCard({ title, content, hasBorder}: ArticleCardProps) {
   return (
     <div>
       {title && (
@@ -21,15 +21,15 @@ export function ArticleCard({ title, content, hasBorder, hasParagraphs }: Articl
         </h3>
       )}
 
-      {hasParagraphs ? (
-        content.split("\n\n").map((paragraph, index) => (
+      {/* {hasParagraphs ? (
+        content?.split("\n\n").map((paragraph, index) => (
           <p key={index} className={`text-sm md:text-base leading-relaxed ${index > 0 ? "mt-4" : ""}`}>
             {paragraph}
           </p>
         ))
-      ) : (
+      ) : ( */}
         <p className="text-sm md:text-base leading-relaxed">{content}</p>
-      )}
+      {/* )} */}
     </div>
   )
 }

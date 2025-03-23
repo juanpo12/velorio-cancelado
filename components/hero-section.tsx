@@ -14,17 +14,41 @@ export function HeroSection() {
         <div className="md:col-span-3 mb-6">
           <ImageBanner />
         </div>
-
-        <ArticleCard
+<ArticleCard
           title="TRAJO SALVACIÓN PARA TU VIDA"
-          content="Hace miles de años, una persona tomó una decisión que cambiaría para siempre su destino y el nuestro. Él era Dios, pero vino a la tierra como hombre. La Biblia menciona que: «estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz» (Filipenses 2:8)."
+          content={
+            <>
+              Hace miles de años, una persona tomó una decisión que cambiaría para siempre su destino y el nuestro. Él era
+              <span className="font-bold"> Dios</span>, pero vino a la tierra como hombre. La Biblia menciona que:
+              <span className="italic"> «estando en la condición de hombre, se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz» </span>
+              <span className="text-black font-semibold">(Filipenses 2:8)</span>.
+            </>
+          }
           hasBorder
         />
 
-        <ArticleCard content="Si esta persona hubiera venido solo como Dios, no habría podido morir en la cruz por nuestros pecados, porque Dios no puede morir, pero el hombre es mortal. Por eso, vino como hombre y sufrió como hombre. La sangre, el sudor y las lágrimas fueron reales. El dolor fue real. La muerte fue real." />
+        <ArticleCard
+          content={
+            <>
+              Si esta persona hubiera venido solo como <span className="font-bold">Dios</span>, no habría podido morir en la cruz por nuestros pecados, porque Dios no puede morir, pero el hombre es mortal.
+              <br />
+              Por eso, vino como hombre y sufrió como hombre. <span className="text-black font-semibold">La sangre, el sudor y las lágrimas fueron reales. El dolor fue real. La muerte fue real.</span>
+            </>
+          }
+        />
 
-        <ArticleCard content="Él decidió no abandonarnos y ser traspasado en la cruz, para poder estar con nosotros y servirnos para siempre. Sin embargo, no celebramos su muerte, sino que anunciamos que su velorio fue cancelado. 
-        Hubo una resurrección que nos recuerda que no tenía por qué quedarse y ser traspasado por nuestros pecados, pero decidió hacerlo, ¡porque nos ama!" />
+        <ArticleCard
+          content={
+            <>
+              Él decidió no abandonarnos y ser traspasado en la cruz, para poder estar con nosotros y servirnos para siempre.
+              <br />
+              Sin embargo, no celebramos su muerte, sino que anunciamos que <span className="font-bold text-black">su velorio fue cancelado</span>.
+              <br />
+              Hubo una <span className="text-black font-bold">resurrección</span> que nos recuerda que no tenía por qué quedarse y ser traspasado por nuestros pecados, pero decidió hacerlo,
+              <span className="font-bold text-black"> ¡porque nos ama!</span>
+            </>
+          }
+        />
       </div>
     </section>
   )
