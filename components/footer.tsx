@@ -29,11 +29,11 @@ export function ContactInfo() {
       </p>
       <p className="flex items-center gap-2">
         <Phone size={16} />
-        <span>+54 11 1234-5678</span>
+        <span>+54 9 1128648642</span>
       </p>
       <p className="flex items-center gap-2">
         <Mail size={16} />
-        <span>info@cristolasolucion.org</span>
+        <span>oficinasclsj@gmail.com</span>
       </p>
       <p className="flex items-center gap-2">
         <Calendar size={16} />
