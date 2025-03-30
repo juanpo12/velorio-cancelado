@@ -5,7 +5,7 @@ export function EventsSection() {
       time: "19:30HS",
       title: "NOCHE DE SANIDAD",
       description:
-        "A las 19:30hs, reunión de sanidad junto al pastor Josías García. Será un tiempo de palabra y oraciones personales. Tenemos fe, porque Jesús nos dijo: «Si puedes creer, al que cree todo le es posible» (S. Marcos 9:23). ¡Es una noche especial, no vengas solo!",
+        "A las 19:30hs, reunión de sanidad junto al pastor Pablo Rocco. Será un tiempo de palabra y oraciones personales. Tenemos fe, porque Jesús nos dijo: «Si puedes creer, al que cree todo le es posible» (S. Marcos 9:23). ¡Es una noche especial, no vengas solo!",
     },
     {
       date: "VIERNES 18/4",
