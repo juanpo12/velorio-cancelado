@@ -1,4 +1,5 @@
 "use client"
+import { useEffect, useState } from "react"
 import { Calendar, MapPin, Phone, Mail } from "lucide-react"
 
 export function Footer() {
@@ -22,9 +23,14 @@ export function Footer() {
 }
 
 export function ContactInfo() {
-  const path = window.location.pathname
-  const isCañuelas = path.includes("/canuelas")
-  const isLomasDeZamora = path.includes("/lomas-de-zamora")
+  const [isCañuelas, setIsCañuelas] = useState(false)
+  const [isLomasDeZamora, setIsLomasDeZamora] = useState(false)
+
+  useEffect(() => {
+    const path = window.location.pathname
+    setIsCañuelas(path.includes("/canuelas"))
+    setIsLomasDeZamora(path.includes("/lomas-de-zamora"))
+  }, [])
   return (
     <div className="space-y-2 text-sm">
       <p className="flex items-center gap-2">
