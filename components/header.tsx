@@ -18,7 +18,7 @@ return (
           <span>EDICIÓN ESPECIAL</span>
           <span>{
             isCañuelas ? "12 DE OCTUBRE 455, CAÑUELAS" :
-            isLomasDeZamora ? "LOMAS DE ZAMORA 1300" :
+            isLomasDeZamora ? "LAPRIDA 780, LOMAS DE ZAMORA" :
             "JUAN MANUEL DE ROSAS 4357, SAN JUSTO"
           }</span>
           <span>ABRIL 2025</span>
