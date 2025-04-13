@@ -13,7 +13,7 @@ import { Event } from "@/lib/interfaces";
     },
     {
       date: "DOMINGO 20/4",
-      time: "10:00",
+      time: "10:00HS",
       title: "SANTA CENA"
     }
   ]

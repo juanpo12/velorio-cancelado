@@ -15,7 +15,7 @@ export default function Home() {
     },
     {
       date: "DOMINGO 20/4",
-      time: "11:00",
+      time: "11:00HS",
       title: "SANTA CENA"
     }
   ]

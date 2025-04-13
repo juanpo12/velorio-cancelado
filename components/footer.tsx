@@ -35,7 +35,7 @@ export function ContactInfo() {
     <div className="space-y-2 text-sm">
       <p className="flex items-center gap-2">
         <MapPin size={16} />
-        <span>{isCañuelas ? "12 DE OCTUBRE 455, CAÑUELAS" : isLomasDeZamora ? "Lomas de Zamora 1300" : "Juan Manuel de Rosas 4357, San Justo"}</span>
+        <span>{isCañuelas ? "12 DE OCTUBRE 455, CAÑUELAS" : isLomasDeZamora ? "LAPRIDA 780, LOMAS DE ZAMORA " : "Juan Manuel de Rosas 4357, San Justo"}</span>
       </p>
       <p className="flex items-center gap-2">
         <Phone size={16} />
